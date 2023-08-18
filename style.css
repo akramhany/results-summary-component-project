@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main {
+    width: clamp(375px, 55vw, 1200px);
+    height: clamp(375px, 70vh, 900px);
+    margin-bottom: 100px;
+    background-color: aqua;
+    border-radius: 35px;
+    display: flex;
+}
+
+.results {
+    background-color: ;
+
+}
