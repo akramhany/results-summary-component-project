@@ -1,7 +1,16 @@
+@font-face {
+    font-family: HansFlek;
+    src: url(Fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: HansFlek, sans-serif;
 }
 
 #container {
@@ -9,18 +18,70 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #F6F7F8;
 }
 
 #main {
     width: clamp(375px, 55vw, 1200px);
     height: clamp(375px, 70vh, 900px);
     margin-bottom: 100px;
-    background-color: aqua;
+    background-color: #ffffff;
     border-radius: 35px;
     display: flex;
+    box-shadow: 20px 30px 50px -30px #d7d7d7;
 }
 
 .results {
-    background-color: ;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+    height: 100%;
+    border-radius: 35px;
+    padding: 40px;
+    text-align: center;
+}
 
+.summary {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 35px;
+}
+
+.upper-text {
+    color: hsl(241, 100%, 89%);
+    font-size: 25px;
+}
+
+.circle {
+    background: linear-gradient(to bottom, HSLA(256, 72%, 46%, 1), HSLA(241, 72%, 46%, 0));
+    width: 60%;
+    height: 45%;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.middle-text {
+    color: white;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.lower-text {
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.circle .upper {
+    font-size: 4.3rem;
+    color: white;
+    font-weight: bold;
+    padding-top: 45px;
+}
+
+.circle .lower {
+    color: hsl(241, 100%, 82%);
 }
