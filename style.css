@@ -45,6 +45,7 @@ body {
     height: 100%;
     background-color: #ffffff;
     border-radius: 35px;
+    padding: 40px;
 }
 
 .upper-text {
@@ -84,4 +85,77 @@ body {
 
 .circle .lower {
     color: hsl(241, 100%, 82%);
+}
+
+.summary-title {
+    font-size: 25px;
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.mini-container {
+    width: 100%;
+    height: 13%;
+    border-radius: 10px;
+    background-color: #f7f5f5;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.first {
+    margin-top: 30px;
+}
+
+.result-type img {
+    position: relative;
+    top: 3px;
+}
+
+.summary :nth-child(2) .result-type {
+    color: hsl(0, 100%, 67%);
+}
+
+.summary :nth-child(3) .result-type {
+    color: hsl(39, 100%, 56%);
+}
+
+.summary :nth-child(4) .result-type {
+    color: hsl(166, 100%, 37%);
+}
+
+.summary :nth-child(5) .result-type {
+    color: hsl(234, 85%, 45%);
+}
+
+.result-number {
+    color: hsl(224, 30%, 27%);
+}
+
+.huns {
+    color: hsl(0, 0%, 62%);
+}
+
+.continue {
+    padding: 15px;
+    text-align: center;
+    border-radius: 35px;
+    width: 100%;
+    height: 13%;
+    margin-top: 40px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    font-family: HansFlek;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    transform: scale(1.02);
 }
